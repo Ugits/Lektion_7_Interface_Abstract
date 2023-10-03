@@ -2,6 +2,7 @@ package com.jonas.interfaceabstract;
 
 import com.jonas.interfaceabstract.models.Cat;
 import com.jonas.interfaceabstract.models.Dog;
+import com.jonas.interfaceabstract.models.Squirrel;
 
 public class Main {
 
@@ -10,6 +11,10 @@ public class Main {
         // Instantiate object
         Cat kasper = new Cat();
         Dog fido = new Dog();
+        Squirrel benny = new Squirrel();
+
+        benny.eat();
+        benny.makeSound();
 
         kasper.name();
         kasper.move();

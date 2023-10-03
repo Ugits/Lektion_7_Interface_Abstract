@@ -19,15 +19,4 @@ public interface Animal {
         System.out.println(typeOfAnimal);
     }
 
-
-    //default
-    default void test() {
-    }
-
-
-    //Abstract method
-    void myAbstractMethod();
-
-
-
 }
