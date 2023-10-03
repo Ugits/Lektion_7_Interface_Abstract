@@ -1,5 +1,6 @@
 package com.jonas.interfaceabstract;
 
+import com.jonas.interfaceabstract.models.AAnimal;
 import com.jonas.interfaceabstract.models.Cat;
 import com.jonas.interfaceabstract.models.Dog;
 import com.jonas.interfaceabstract.models.Squirrel;
@@ -7,6 +8,8 @@ import com.jonas.interfaceabstract.models.Squirrel;
 public class Main {
 
     public static void main(String[] args) {
+
+        AAnimal
 
         // Instantiate object
         Cat kasper = new Cat();
